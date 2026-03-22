@@ -4,8 +4,8 @@ This repository contains my custom Visual Studio Code color themes in the `theme
 
 Included themes
 
-- `emo-hacker-stranger` — a dark theme with Dracula and neon accents.
-- `spiderman-style` — a themed style inspired by Spider-Man.
+- `emo-hacker-stranger` a dark theme with Dracula and neon accents.
+- `spiderman-style` a themed style inspired by Spider-Man.
 
 Try a theme locally
 
