@@ -1,0 +1,201 @@
+{
+  "name": "Emo Hacker — Stranger Dracula",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#282A36",
+    "editor.foreground": "#f8f8f2",
+    "editorCursor.foreground": "#ff79c6",
+    "editor.lineHighlightBackground": "#36384A",
+    "editor.lineHighlightBorder": "#44475A33",
+    "editor.selectionBackground": "#50577A99",
+    "editor.inactiveSelectionBackground": "#50577A55",
+    "editor.selectionHighlightBackground": "#6272A422",
+    "editorIndentGuide.background": "#3b3f50",
+    "editorIndentGuide.activeBackground": "#6272a4",
+    "editorWhitespace.foreground": "#3b3b4a",
+    "editorLineNumber.foreground": "#6272a4",
+    "editorLineNumber.activeForeground": "#f8f8f2",
+
+    "activityBar.background": "#282A36",
+    "activityBar.foreground": "#f8f8f2",
+    "activityBarBadge.background": "#ff79c6",
+    "activityBarBadge.foreground": "#1b1b22",
+    "activityBar.activeBorder": "#bd93f9",
+
+    "sideBar.background": "#282A36",
+    "sideBar.foreground": "#f8f8f2",
+    "sideBar.border": "#ff79c6",
+
+    "titleBar.activeBackground": "#282A36",
+    "titleBar.activeForeground": "#f8f8f2",
+    "titleBar.inactiveBackground": "#282A36",
+    "titleBar.border": "#bd93f9",
+
+    "statusBar.background": "#282A36",
+    "statusBar.foreground": "#f8f8f2",
+    "statusBar.noFolderBackground": "#282A36",
+    "statusBar.debuggingBackground": "#ff5555",
+
+    "tab.activeBackground": "#282A36",
+    "tab.activeForeground": "#f8f8f2",
+    "tab.inactiveBackground": "#282A36",
+    "tab.border": "#bd93f9",
+    "tab.activeBorderTop": "#ff79c6",
+
+    "panel.background": "#282A36",
+    "panel.border": "#44475a",
+
+    "menu.background": "#282A36",
+    "menu.foreground": "#f8f8f2",
+    "menu.selectionBackground": "#36384A",
+    "menu.selectionForeground": "#f8f8f2",
+    "menu.separatorBackground": "#44475A",
+
+    "list.hoverBackground": "#36384A",
+    "list.hoverForeground": "#f8f8f2",
+    "list.activeSelectionBackground": "#50577A99",
+    "list.inactiveSelectionBackground": "#50577A55",
+    "list.focusBackground": "#36384A",
+    "list.dropBackground": "#6272A422",
+    "badge.background": "#ff79c6",
+    "badge.foreground": "#0b0b0f",
+
+    "focusBorder": "#ff79c6",
+    "contrastBorder": "#000000",
+
+    "editorWarning.foreground": "#ffb86c",
+    "editorError.foreground": "#ff6b6b",
+
+    "scrollbarSlider.background": "#44475a66",
+    "scrollbarSlider.hoverBackground": "#44475a88",
+
+    "dropdown.background": "#282A36",
+    "input.background": "#282A36",
+    "button.background": "#ff79c6",
+    "button.foreground": "#0b0b0f",
+
+    "notification.background": "#282A36",
+    "notification.foreground": "#f8f8f2",
+
+    "minimap.background": "#282A36",
+
+    "gitDecoration.modifiedResourceForeground": "#ff79c6",
+    "gitDecoration.addedResourceForeground": "#50fa7b",
+    "gitDecoration.deletedResourceForeground": "#ff5555"
+  },
+
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6272a4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language", "constant.numeric.float", "constant.character"],
+      "settings": {
+        "foreground": "#8be9fd"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control"],
+      "settings": {
+        "foreground": "#ff5555",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function", "meta.function-call", "variable.function"],
+      "settings": {
+        "foreground": "#bd93f9"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other", "identifier"],
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "scope": ["variable.parameter", "variable.parameter.function"],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "scope": ["constant.language.boolean", "constant.language.null"],
+      "settings": {
+        "foreground": "#8be9fd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#ffffff",
+        "background": "#ff5555"
+      }
+    },
+
+    { "name": "JS/TS - functions & classes",
+      "scope": ["meta.class", "support.class", "entity.name.type.class"],
+      "settings": { "foreground": "#bd93f9" }
+    },
+
+    { "name": "JS/TS - template/embedded expressions",
+      "scope": ["meta.brace", "punctuation.definition.template-expression"],
+      "settings": { "foreground": "#50fa7b" }
+    },
+
+    { "name": "Python - builtins & keywords",
+      "scope": ["support.type.python", "keyword.operator.expression.python"],
+      "settings": { "foreground": "#ff5555" }
+    },
+
+    { "name": "HTML - tags",
+      "scope": ["entity.name.tag.html", "punctuation.definition.tag.html"],
+      "settings": { "foreground": "#bd93f9" }
+    },
+    { "name": "HTML - attributes",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": { "foreground": "#50fa7b" }
+    },
+    { "name": "HTML - attribute values",
+      "scope": ["string.quoted.double.html", "string.quoted.single.html"],
+      "settings": { "foreground": "#8be9fd" }
+    },
+
+    { "name": "CSS - properties",
+      "scope": ["support.type.property-name.css", "support.constant.property-value.css", "support.type.property-name"],
+      "settings": { "foreground": "#ff5555" }
+    },
+    { "name": "CSS - values",
+      "scope": ["support.constant.property-value.css", "keyword.other.unit"],
+      "settings": { "foreground": "#50fa7b" }
+    },
+
+    { "name": "JSON - keys",
+      "scope": ["support.type.property-name.json", "string.object.json"],
+      "settings": { "foreground": "#ff79c6" }
+    },
+
+    { "name": "Markdown - headings",
+      "scope": ["markup.heading", "markup.heading.markdown"],
+      "settings": { "foreground": "#bd93f9", "fontStyle": "bold" }
+    },
+
+    { "name": "Punctuation & operators",
+      "scope": ["punctuation.separator", "punctuation.definition.parameters"],
+      "settings": { "foreground": "#f8f8f2" }
+    }
+  ],
+
+  "semanticHighlighting": true
+}

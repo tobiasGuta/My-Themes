@@ -1,0 +1,23 @@
+{
+  "name": "spiderman-theme",
+  "displayName": "Emo Hacker — Stranger Dracula",
+  "publisher": "you",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/you/emo-hacker-stranger"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spider-Man Style",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spiderman-style/spiderman-style-color-theme.json"
+      }
+    ]
+  }
+}
