@@ -2,11 +2,26 @@
   "name": "Beyond the Spider-Verse",
   "type": "dark",
   "colors": {
+    // --- THE SEAMLESS VOID (Fixes the gray bars near file names) ---
+    "editorGroupHeader.tabsBackground": "#080810", 
+    "editorGroupHeader.tabsBorder": "#FF00FF40",
+    "editorGroupHeader.noTabsBackground": "#080810",
+    "editorGroup.border": "#FF00FF40",
+    "editorGroup.emptyBackground": "#080810",
+    "breadcrumb.background": "#080810", // Matches the editor perfectly
+    "breadcrumb.foreground": "#5C6B7F",
+    "breadcrumb.focusForeground": "#FF00FF",
+    "breadcrumb.activeSelectionForeground": "#00FFFF",
+    "editorWidget.background": "#141424",
+    "editorWidget.border": "#FF00FF",
+
+    // --- Editor & The Red Line Fix ---
     "editor.background": "#080810",
     "editor.foreground": "#EDEDED",
     "editorCursor.foreground": "#FF3366",
     "editor.lineHighlightBackground": "#FF336615",
-    "editor.lineHighlightBorder": "#FF336640",
+    "editor.lineHighlightBorder": "#00000000", 
+    "editor.lineHighlightBorderWidth": "2px",
     "editor.selectionBackground": "#FF00FF40",
     "editor.inactiveSelectionBackground": "#5C6B7F40",
     "editor.selectionHighlightBackground": "#00FFFF22",
@@ -16,41 +31,45 @@
     "editorLineNumber.foreground": "#5C6B7F",
     "editorLineNumber.activeForeground": "#FFD700",
 
+    // --- Notebook (IPYNB / Colab) Integration ---
+    "notebook.cellBorderColor": "#FF00FF40",
+    "notebook.focusedCellBorder": "#FF00FF",
+    "notebook.cellEditorBackground": "#080810",
+    "notebook.focusedCellBackground": "#080810",
+    "notebook.selectedCellBackground": "#FF336608", 
+    "notebook.cellToolbarSeparator": "#FF00FF40",
+    "notebook.cellStatusBarItem.foreground": "#00FFFF",
+    "notebook.outputContainerBackgroundColor": "#080810",
+
+    // --- App UI Structure ---
     "activityBar.background": "#0F0F1A",
     "activityBar.foreground": "#00FFFF",
     "activityBarBadge.background": "#FF3366",
     "activityBarBadge.foreground": "#FFFFFF",
     "activityBar.activeBorder": "#FF00FF",
-
     "sideBar.background": "#141424",
     "sideBar.foreground": "#EDEDED",
     "sideBar.border": "#FF00FF40",
-
     "titleBar.activeBackground": "#080810",
     "titleBar.activeForeground": "#EDEDED",
     "titleBar.inactiveBackground": "#080810",
     "titleBar.border": "#FF00FF40",
-
     "statusBar.background": "#080810",
     "statusBar.foreground": "#FF3366",
     "statusBar.noFolderBackground": "#141424",
     "statusBar.debuggingBackground": "#FF3366",
-
     "tab.activeBackground": "#141424",
     "tab.activeForeground": "#FF00FF",
     "tab.inactiveBackground": "#0A0A15",
     "tab.border": "#141424",
     "tab.activeBorderTop": "#FF00FF",
-
     "panel.background": "#080810",
     "panel.border": "#FF00FF40",
-
     "menu.background": "#141424",
     "menu.foreground": "#EDEDED",
     "menu.selectionBackground": "#FF00FF40",
     "menu.selectionForeground": "#FFFFFF",
     "menu.separatorBackground": "#5C6B7F",
-
     "list.hoverBackground": "#1A1A2A",
     "list.hoverForeground": "#FFFFFF",
     "list.activeSelectionBackground": "#FF00FF40",
@@ -59,31 +78,23 @@
     "list.dropBackground": "#00FFFF22",
     "badge.background": "#FF3366",
     "badge.foreground": "#FFFFFF",
-
     "focusBorder": "#FF00FF",
     "contrastBorder": "#000000",
-
     "editorWarning.foreground": "#FFD700",
     "editorError.foreground": "#FF3366",
-
     "scrollbarSlider.background": "#5C6B7F40",
     "scrollbarSlider.hoverBackground": "#FF00FF60",
-
     "dropdown.background": "#141424",
     "input.background": "#141424",
     "button.background": "#FF3366",
     "button.foreground": "#FFFFFF",
-
     "notification.background": "#141424",
     "notification.foreground": "#EDEDED",
-
     "minimap.background": "#080810",
-
     "gitDecoration.modifiedResourceForeground": "#FFD700",
     "gitDecoration.addedResourceForeground": "#00FF00",
     "gitDecoration.deletedResourceForeground": "#FF3366"
   },
-
   "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment"],
@@ -144,59 +155,61 @@
         "background": "#FF3366"
       }
     },
-
-    { "name": "JS/TS - functions & classes",
+    {
+      "name": "JS/TS - functions & classes",
       "scope": ["meta.class", "support.class", "entity.name.type.class"],
       "settings": { "foreground": "#FFD700", "fontStyle": "bold" }
     },
-
-    { "name": "JS/TS - template/embedded expressions",
+    {
+      "name": "JS/TS - template/embedded expressions",
       "scope": ["meta.brace", "punctuation.definition.template-expression"],
       "settings": { "foreground": "#00FFFF" }
     },
-
-    { "name": "Python - builtins & keywords",
+    {
+      "name": "Python - builtins & keywords",
       "scope": ["support.type.python", "keyword.operator.expression.python"],
       "settings": { "foreground": "#FF00FF", "fontStyle": "bold italic" }
     },
-
-    { "name": "HTML - tags",
+    {
+      "name": "HTML - tags",
       "scope": ["entity.name.tag.html", "punctuation.definition.tag.html"],
       "settings": { "foreground": "#FF00FF" }
     },
-    { "name": "HTML - attributes",
+    {
+      "name": "HTML - attributes",
       "scope": ["entity.other.attribute-name.html"],
       "settings": { "foreground": "#FFD700" }
     },
-    { "name": "HTML - attribute values",
+    {
+      "name": "HTML - attribute values",
       "scope": ["string.quoted.double.html", "string.quoted.single.html"],
       "settings": { "foreground": "#00FFFF" }
     },
-
-    { "name": "CSS - properties",
+    {
+      "name": "CSS - properties",
       "scope": ["support.type.property-name.css", "support.constant.property-value.css", "support.type.property-name"],
       "settings": { "foreground": "#FF00FF" }
     },
-    { "name": "CSS - values",
+    {
+      "name": "CSS - values",
       "scope": ["support.constant.property-value.css", "keyword.other.unit"],
       "settings": { "foreground": "#FFD700" }
     },
-
-    { "name": "JSON - keys",
+    {
+      "name": "JSON - keys",
       "scope": ["support.type.property-name.json", "string.object.json"],
       "settings": { "foreground": "#FFD700" }
     },
-
-    { "name": "Markdown - headings",
+    {
+      "name": "Markdown - headings",
       "scope": ["markup.heading", "markup.heading.markdown"],
       "settings": { "foreground": "#FF3366", "fontStyle": "bold" }
     },
-
-    { "name": "Punctuation & operators",
+    {
+      "name": "Punctuation & operators",
       "scope": ["punctuation.separator", "punctuation.definition.parameters"],
       "settings": { "foreground": "#888888" }
     }
   ],
-
   "semanticHighlighting": true
 }
