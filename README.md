@@ -35,3 +35,5 @@ Replace `<theme-folder>` and `<theme-name>` with the folder/name you want to ins
 Want help packaging or publishing any theme to the Marketplace? Ask and I can package one for you.
 
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/1c4bab7e-968d-4189-b134-3d44422bebf7" />
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/8218d931-f8a0-4526-bffb-c8c482c5af1d" />
